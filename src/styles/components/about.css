@@ -1,11 +1,11 @@
 /* About section styles */
 .about-section {
-  background-color: var(--color-surface-card);
+  background-color: var(--color-white-pure);
   border-bottom: 1px solid var(--color-border-subtle);
 }
 
 .about-card {
-  background-color: var(--color-surface-bg);
+  background-color: rgba(var(--color-grey-neutral-rgb), 0.05);
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-lg);
   padding: 1.75rem;
@@ -13,7 +13,7 @@
 }
 
 .about-card:hover {
-  border-color: var(--color-brand-accent);
+  border-color: var(--color-blue-ocean);
 }
 
 .about-card-icon {
@@ -23,7 +23,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #dbeafe;
-  color: var(--color-brand-primary);
+  background-color: rgba(var(--color-blue-ocean-rgb), 0.12);
+  color: var(--color-blue-ocean);
   margin-bottom: 1rem;
 }
+

@@ -10,7 +10,7 @@ export const HeroSection: React.FC = () => {
           {/* Status / Category Tag Placeholder */}
           <div className="inline-flex items-center gap-2 mb-6">
             <span className="hero-tag">
-              <ShieldCheck className="w-4 h-4 text-blue-800" aria-hidden="true" />
+              <ShieldCheck className="w-4 h-4 text-[#005B9E]" aria-hidden="true" />
               <span>Profil Resmi Perusahaan</span>
             </span>
           </div>
@@ -18,13 +18,13 @@ export const HeroSection: React.FC = () => {
           {/* Main Heading */}
           <h1
             id="hero-heading"
-            className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#051336] tracking-tight leading-tight mb-6"
           >
             Membangun Solusi Terpercaya untuk Masa Depan Bisnis Anda
           </h1>
 
           {/* Subtitle / Company Value Description */}
-          <p className="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed">
+          <p className="text-lg sm:text-xl text-[#43474d] mb-8 leading-relaxed">
             [NAMA PERUSAHAAN] menyediakan layanan profesional dengan komitmen tinggi pada kualitas, integritas, dan kepuasan mitra kerja di seluruh Indonesia.
           </p>
 

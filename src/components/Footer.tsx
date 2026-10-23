@@ -12,10 +12,10 @@ export const Footer: React.FC = () => {
           {/* Brand Col */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-2 font-bold text-lg text-white">
-              <Building2 className="w-5 h-5 text-blue-400" aria-hidden="true" />
+              <Building2 className="w-5 h-5 text-[#005B9E]" aria-hidden="true" />
               <span>[NAMA PERUSAHAAN]</span>
             </div>
-            <p className="text-slate-400 text-sm max-w-sm leading-relaxed">
+            <p className="text-[#7E8185] text-sm max-w-sm leading-relaxed">
               Website resmi profil perusahaan. Menyediakan informasi terpercaya mengenai layanan, nilai, dan arah perkembangan bisnis kami.
             </p>
           </div>
@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
             <h4 className="text-white font-semibold text-sm tracking-wide uppercase mb-4">
               Legalitas & Catatan
             </h4>
-            <ul className="space-y-2.5 text-sm text-slate-400">
+            <ul className="space-y-2.5 text-sm text-[#7E8185]">
               <li>[Nomor Izin Usaha / NIB]</li>
               <li>[Sertifikasi Standar Operasional]</li>
               <li>Kebijakan Privasi (Placeholder)</li>
@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
           <p>
             &copy; {currentYear} [NAMA PERUSAHAAN]. Hak Cipta Dilindungi Undang-Undang.
           </p>
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-[#7E8185]">
             Company Profile Starter: React + Vite + TypeScript + Tailwind CSS
           </p>
         </div>

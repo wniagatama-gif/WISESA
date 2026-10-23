@@ -2,3 +2,12 @@
 @import "./variables.css";
 @import "./base.css";
 @import "./layout.css";
+
+@theme {
+  --color-navy-dark: #051336;
+  --color-blue-ocean: #005B9E;
+  --color-grey-neutral: #7E8185;
+  --color-black-solid: #000000;
+  --color-white-pure: #FFFFFF;
+}
+

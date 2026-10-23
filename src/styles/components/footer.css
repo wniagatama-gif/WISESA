@@ -1,25 +1,26 @@
 /* Footer & Contact component styles */
 .site-footer {
-  background-color: #0f172a;
-  color: #94a3b8;
+  background-color: var(--color-navy-dark);
+  color: var(--color-white-pure);
   padding-top: 4rem;
   padding-bottom: 2.5rem;
 }
 
 .footer-link {
-  color: #94a3b8;
+  color: var(--color-grey-neutral);
   font-size: 0.95rem;
   transition: color var(--transition-fast);
 }
 
 .footer-link:hover {
-  color: #ffffff;
+  color: var(--color-white-pure);
 }
 
 .footer-bottom {
   margin-top: 3.5rem;
   padding-top: 2rem;
-  border-top: 1px solid #1e293b;
+  border-top: 1px solid rgba(var(--color-grey-neutral-rgb), 0.25);
   font-size: 0.875rem;
-  color: #64748b;
+  color: var(--color-grey-neutral);
 }
+

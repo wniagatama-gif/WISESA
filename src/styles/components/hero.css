@@ -1,6 +1,6 @@
 /* Hero section styles */
 .hero-wrapper {
-  background: linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
+  background: linear-gradient(180deg, var(--color-white-pure) 0%, rgba(var(--color-grey-neutral-rgb), 0.08) 100%);
   border-bottom: 1px solid var(--color-border-subtle);
   position: relative;
   overflow: hidden;
@@ -13,8 +13,8 @@
   padding: 0.35rem 0.85rem;
   border-radius: var(--radius-md);
   background-color: var(--color-surface-muted);
-  border: 1px solid var(--color-border-strong);
-  color: var(--color-brand-primary);
+  border: 1px solid var(--color-border-subtle);
+  color: var(--color-navy-dark);
   font-size: 0.875rem;
   font-weight: 600;
 }
@@ -32,20 +32,21 @@
 }
 
 .hero-cta-primary {
-  background-color: var(--color-brand-primary);
-  color: #ffffff;
+  background-color: var(--color-blue-ocean);
+  color: var(--color-white-pure);
 }
 
 .hero-cta-primary:hover {
-  background-color: var(--color-brand-primary-hover);
+  background-color: var(--color-navy-dark);
 }
 
 .hero-cta-secondary {
   background-color: var(--color-surface-card);
-  color: var(--color-text-main);
-  border: 1px solid var(--color-border-strong);
+  color: var(--color-navy-dark);
+  border: 1px solid var(--color-grey-neutral);
 }
 
 .hero-cta-secondary:hover {
   background-color: var(--color-surface-muted);
 }
+

@@ -54,11 +54,11 @@ export const ServicesSection: React.FC = () => {
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h2
             id="services-heading"
-            className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight mb-4"
+            className="text-2xl sm:text-3xl font-bold text-[#051336] tracking-tight mb-4"
           >
             Layanan Kami
           </h2>
-          <p className="text-slate-600 text-base sm:text-lg">
+          <p className="text-[#43474d] text-base sm:text-lg">
             Rangkaian layanan komprehensif yang dirancang untuk mendukung kelancaran dan perkembangan operasional organisasi Anda.
           </p>
         </div>
@@ -68,16 +68,16 @@ export const ServicesSection: React.FC = () => {
           {servicesData.map((service) => (
             <div key={service.id} className="service-card">
               <div className="service-icon-box">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">
+              <h3 className="text-xl font-semibold text-[#051336] mb-3">
                 {service.title}
               </h3>
-              <p className="text-slate-600 text-sm leading-relaxed mb-6">
+              <p className="text-[#43474d] text-sm leading-relaxed mb-6">
                 {service.description}
               </p>
-              <ul className="mt-auto space-y-2 border-t border-slate-100 pt-4" aria-label={`Fitur ${service.title}`}>
+              <ul className="mt-auto space-y-2 border-t border-[rgba(126,129,133,0.2)] pt-4" aria-label={`Fitur ${service.title}`}>
                 {service.features.map((feat, idx) => (
-                  <li key={idx} className="flex items-start gap-2 text-xs text-slate-600">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" aria-hidden="true" />
+                  <li key={idx} className="flex items-start gap-2 text-xs text-[#43474d]">
+                    <CheckCircle2 className="w-4 h-4 text-[#005B9E] shrink-0 mt-0.5" aria-hidden="true" />
                     <span>{feat}</span>
                   </li>
                 ))}

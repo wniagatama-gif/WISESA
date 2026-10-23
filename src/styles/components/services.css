@@ -1,11 +1,11 @@
 /* Services section styles */
 .services-section {
-  background-color: var(--color-surface-muted);
+  background-color: rgba(var(--color-grey-neutral-rgb), 0.08);
   border-bottom: 1px solid var(--color-border-subtle);
 }
 
 .service-card {
-  background-color: var(--color-surface-card);
+  background-color: var(--color-white-pure);
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-lg);
   padding: 2rem;
@@ -16,18 +16,19 @@
 }
 
 .service-card:hover {
-  border-color: var(--color-brand-accent);
-  box-shadow: 0 8px 24px -4px rgba(15, 23, 42, 0.06);
+  border-color: var(--color-blue-ocean);
+  box-shadow: 0 8px 24px -4px rgba(5, 19, 54, 0.08);
 }
 
 .service-icon-box {
   width: 3rem;
   height: 3rem;
   border-radius: var(--radius-md);
-  background-color: #eff6ff;
-  color: var(--color-brand-primary);
+  background-color: rgba(var(--color-blue-ocean-rgb), 0.12);
+  color: var(--color-blue-ocean);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1.25rem;
 }
+

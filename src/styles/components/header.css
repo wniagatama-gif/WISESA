@@ -9,6 +9,22 @@
   transition: all var(--transition-fast);
 }
 
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-navy-dark);
+  border-radius: var(--radius-sm);
+  padding: 0.25rem;
+  transition: opacity var(--transition-fast);
+}
+
+.header-brand:hover {
+  opacity: 0.9;
+}
+
 .nav-link {
   color: var(--color-text-muted);
   font-weight: 500;
@@ -19,7 +35,40 @@
 }
 
 .nav-link:hover {
-  color: var(--color-text-main);
+  color: var(--color-blue-ocean);
+  background-color: var(--color-surface-muted);
+}
+
+.header-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--color-blue-ocean);
+  color: var(--color-white-pure);
+  font-weight: 500;
+  min-height: 44px;
+  transition: background-color var(--transition-fast);
+}
+
+.header-cta-btn:hover {
+  background-color: var(--color-navy-dark);
+}
+
+.mobile-menu-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: var(--radius-md);
+  color: var(--color-navy-dark);
+  min-height: 44px;
+  min-width: 44px;
+  transition: background-color var(--transition-fast);
+}
+
+.mobile-menu-btn:hover {
   background-color: var(--color-surface-muted);
 }
 
@@ -28,3 +77,4 @@
   background-color: var(--color-surface-card);
   padding: 1rem 0;
 }
+

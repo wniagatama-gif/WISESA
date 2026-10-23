@@ -8,7 +8,7 @@ import { Footer } from './components/Footer';
 
 export const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
+    <div className="min-h-screen flex flex-col bg-white text-black">
       <Header />
       <main id="main-content" className="flex-1">
         <HeroSection />
