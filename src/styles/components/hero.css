@@ -1,0 +1,51 @@
+/* Hero section styles */
+.hero-wrapper {
+  background: linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
+  border-bottom: 1px solid var(--color-border-subtle);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface-muted);
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-brand-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.hero-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.75rem 1.75rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.hero-cta-primary {
+  background-color: var(--color-brand-primary);
+  color: #ffffff;
+}
+
+.hero-cta-primary:hover {
+  background-color: var(--color-brand-primary-hover);
+}
+
+.hero-cta-secondary {
+  background-color: var(--color-surface-card);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border-strong);
+}
+
+.hero-cta-secondary:hover {
+  background-color: var(--color-surface-muted);
+}

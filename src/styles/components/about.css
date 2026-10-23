@@ -1,0 +1,29 @@
+/* About section styles */
+.about-section {
+  background-color: var(--color-surface-card);
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.about-card {
+  background-color: var(--color-surface-bg);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  transition: border-color var(--transition-fast);
+}
+
+.about-card:hover {
+  border-color: var(--color-brand-accent);
+}
+
+.about-card-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbeafe;
+  color: var(--color-brand-primary);
+  margin-bottom: 1rem;
+}
